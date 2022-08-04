@@ -4,9 +4,13 @@ This is a simple music player application built in Java. \
 Below is a checklist of features I am planning to implement. 
 
 - [ ] - functioning music player with GUI interface
+- [ ] - queue/playlist feature
 - GUI improvments
     - [ ] - album artwork display
     - [ ] - progress bar
     - [ ] - timestamp
     - [ ] - better buttons
-- [ ] - queue/playlist feature
+- YouTube
+    - [ ] - ability to play songs with a YouTube URL rather than a file address
+    - [ ] - downlaod songs from YouTube
+    - [ ] - expand to other web based streaming platforms like Soundcloud
