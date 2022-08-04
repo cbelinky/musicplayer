@@ -81,18 +81,17 @@ public class musicPlayerForm extends javax.swing.JFrame {
                 .addGap(28, 28, 28)
                 .addComponent(filepath_label)
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(play_button)
-                        .addGap(18, 18, 18)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(pause_button)
-                        .addGap(18, 18, 18)
+                        .addGap(93, 93, 93)
                         .addComponent(repeat_button))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(filepath_textfield, javax.swing.GroupLayout.PREFERRED_SIZE, 406, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(load_button)))
-                .addContainerGap(53, Short.MAX_VALUE))
+                    .addComponent(filepath_textfield, javax.swing.GroupLayout.PREFERRED_SIZE, 406, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(load_button)
+                .addContainerGap(43, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -107,7 +106,7 @@ public class musicPlayerForm extends javax.swing.JFrame {
                     .addComponent(play_button)
                     .addComponent(pause_button)
                     .addComponent(repeat_button))
-                .addContainerGap(256, Short.MAX_VALUE))
+                .addContainerGap(54, Short.MAX_VALUE))
         );
 
         pack();
