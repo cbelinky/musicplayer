@@ -4,10 +4,10 @@ package mp3player;
  *
  * @author Charlie
  */
-public class Mp3Player {
+public class Main {
 
     public static void main(String[] args) {
-        MusicForm musicPlayerForm = new MusicForm();
+        musicPlayerForm musicPlayerForm = new musicPlayerForm();
         musicPlayerForm.setVisible(true);
         musicPlayerForm.setResizable(false);
         musicPlayerForm.setLocationRelativeTo(null);
