@@ -5,6 +5,7 @@ Below is a checklist of features I am planning to implement.
 
 - [ ] - functioning music player with GUI interface
 - [ ] - queue/playlist feature
+- [ ] - volume adjust
 - GUI improvments
     - [ ] - album artwork display
     - [ ] - progress bar
