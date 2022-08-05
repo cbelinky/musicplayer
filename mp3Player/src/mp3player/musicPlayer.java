@@ -2,9 +2,11 @@ package mp3player;
 
 import java.io.File;
 import java.io.IOException;
+import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import javax.sound.sampled.DataLine;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
@@ -41,7 +43,12 @@ public class musicPlayer {
             {
                 AudioInputStream audioInput = AudioSystem.getAudioInputStream(musicPath);//obtains an audio input from the filepath provided
                 clip = AudioSystem.getClip();//translating audiostream into a java clip
-                clip.open(audioInput);//opens clip
+                /* 
+                AudioFormat format = audioInput.getFormat();
+                //DataLine.Info info = new DataLine.Info(Clip.class, format);
+                //clip = (Clip) AudioSystem.getLine(info);
+                */
+                clip.open(audioInput);//opens clip               
                 System.out.println("initialized");
             }
         }
