@@ -3,7 +3,7 @@
 This is a simple music player application built in Java. \
 Below is a checklist of features I am planning to implement. 
 
-- [ ] - functioning music player with GUI interface
+- [x] - functioning music player with GUI interface
 - [ ] - queue/playlist feature
 - [ ] - volume adjust
 - GUI improvments
