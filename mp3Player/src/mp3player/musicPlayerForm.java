@@ -19,7 +19,7 @@ public class musicPlayerForm extends javax.swing.JFrame {
     
     //creates a global music player object
     static musicPlayer player = musicPlayer.getInstance();
-    static String filepath = "Am.wav";
+    static String filepath = "TM.wav";
     static long clipTimePosition;
     
     static boolean isPlaying = true;
