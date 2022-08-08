@@ -15,3 +15,4 @@ Below is a checklist of features I am planning to implement.
     - [ ] - ability to play songs with a YouTube URL rather than a file address
     - [ ] - downlaod songs from YouTube
     - [ ] - expand to other web based streaming platforms like Soundcloud
+- [ ] - visualizer
