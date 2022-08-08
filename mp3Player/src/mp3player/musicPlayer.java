@@ -2,11 +2,9 @@ package mp3player;
 
 import java.io.File;
 import java.io.IOException;
-import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
-import javax.sound.sampled.DataLine;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
@@ -32,7 +30,7 @@ public class musicPlayer {
         return player;
     }
     
-    // Function that finds a music file and loads it into memory.
+    // This function finds a music file and loads it into memory.
     public static void loadMusic(String filepath)
     {
         try
@@ -52,9 +50,10 @@ public class musicPlayer {
                 System.out.println("initialized");
             }
         }
-        catch(IOException | LineUnavailableException | UnsupportedAudioFileException e)
+        catch(Exception e)
         {
-            System.out.println(e);//debugging; prints error in case filepath provided does not exist
+            e.printStackTrace();
+            System.exit(1);
         }
     }
 }
